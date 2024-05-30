@@ -28,5 +28,5 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Send greetings
-      run: echo "Hello ${{github.event.inputs.name}}"
+    - name: Send greeting
+      run: echo "Hello ${{ github.event.inputs.name }}"
